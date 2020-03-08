@@ -12,5 +12,5 @@ var flaws = null;
 // undefined
 var desc = undefined;
 
-document.write(phrase);
+document.write(phrase.substring(5,7));
 document.write(phrase.length);
