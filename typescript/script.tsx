@@ -1,5 +1,10 @@
 function add(num1: number, num2: number) {
-    return num1 + num2;
+    if (typeof num1 === 'number' && typeof num2 === 'number') {
+        return num1 + num2;
+    }
+    else {
+        return num1.toString() + num2.toString();
+    }
 }
 
 let number1 : number;
