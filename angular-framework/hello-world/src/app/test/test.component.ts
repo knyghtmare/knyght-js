@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  myvariable = "Foobar"
+  bitwiseOR = 2 | 5
+
   constructor() { }
 
   ngOnInit(): void {
