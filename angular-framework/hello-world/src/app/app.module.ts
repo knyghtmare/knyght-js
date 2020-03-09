@@ -12,13 +12,15 @@ import { RecordsService } from './records.service';
 import { DataComponent } from './data/data.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     DataComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
