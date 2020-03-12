@@ -61,6 +61,8 @@
                 </select>
             </div>
 
+            <!--
+
             <div class="row p-2">
                 <div class="form-group col-md-3">
                     <label for="dateOfBirth">Date of Birth</label>
@@ -75,11 +77,20 @@
                 class="form-control" name="photoPath" 
                 [(ngModel)]="photoPath">
             </div>
+
+            <div class="form-group p-2">
+                <button type="button" (click)="togglePhotoPreview()" class="btn btn-primary">
+                    {{previewPhoto ? "Hide " : "Show " }} Preview
+                </button>
+            </div>
+            
+            <div class="form-group p-2">
+                <img [src]="photoPath" height="200" width="200" *ngIf="previewPhoto" />
+            </div>
+            -->
+
         </div>
 
-        <div class="form-group">
-            <img [src]="photoPath" height="200" width="200" *ngIf="previewPhoto"/>
-        </div>
         <div class="panel-footer">
             <button type="submit" class="btn btn-primary">Save</button>
         </div>

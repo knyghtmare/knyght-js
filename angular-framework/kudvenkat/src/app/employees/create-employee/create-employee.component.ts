@@ -30,6 +30,10 @@ export class CreateEmployeeComponent implements OnInit {
     });
   }
 
+  // togglePhotoPreview() {
+  //   this.previewPhoto = !this.previewPhoto;
+  // } 
+
   ngOnInit(): void {
   }
 
