@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Knyght learns Javascript!</title>
+
+    <script src="scripts/days.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <h2>This is the Header</h2>
+      <hr>
+    </header>
+    <main>
+      This is the main part of the HTML body
+      <p id="sample_id"></p>
+    </main>
+    <footer>
+      <hr>
+      <h2>This is the footer</h2>
+    </footer>
+    <script type="text/javascript">
+       document.getElementById('sample_id').innerHTML = "Today is a " + getDayName(dayNum) + ".";
+    </script>
+  </body>
+</html>

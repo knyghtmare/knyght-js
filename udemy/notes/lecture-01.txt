@@ -3,7 +3,11 @@ Javascript - Introduction
 
 Javascript Notes:
 
+Javascript is a client-side programming language
+
 1. Cannot be forced onto users' Web Browsers
 2. Javascript must be supported on clients WebBrowsers
 3. Most Browsers support Javascript by default
 4. Javascript is not Java!
+
+Javascript is an object-oriented language
